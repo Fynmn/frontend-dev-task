@@ -7,7 +7,7 @@ const Footer = () => {
             className="h-[2px] w-full"
             style={{ backgroundColor: "#EBEBEB" }}
           />
-          <div className="mt-[10px] flex justify-between">
+          <div className="mt-[10px] grid grid-cols-2 gap-4 md:gap-y-0 px-6 md:px-0 md:flex md:flex-row justify-between">
             <div className="flex flex-col">
               <h6
                 className="text-sm leading-6 tracking-[0.35px] font-bold"
@@ -203,21 +203,21 @@ const Footer = () => {
         <div className="flex-1"></div>
         <div>
           <div
-            className="h-[2px] w-full"
+            className="h-[2px] w-full mt-2 md:mt-0"
             style={{ backgroundColor: "#EBEBEB" }}
           />
-          <div className="px-4 flex items-center">
+          <div className="md:px-4 flex items-center gap-x-2">
             <div className="py-4">
-              <h2 className="font-poppins text-[21.063px] font-bold leading-[30.507px] tracking-[3.072px]">
+              <h2 className="font-poppins text-[16px] md:text-[21.063px] font-bold md:leading-[30.507px] md:tracking-[3.072px] ">
                 NOTHING HELD BACK
               </h2>
               <div
-                className="h-1 w-[115px]"
+                className="h-[2px] w-[30px] md:h-1 md:w-[115px]"
                 style={{ backgroundColor: "#FFC700" }}
               />
             </div>
             <span className="flex-1"></span>
-            <span className="flex gap-x-5">
+            <span className="flex flex-col gap-y-2 md:flex-row md:gap-x-5">
               <span
                 className="text-[13px] leading-[16px] font-normal"
                 style={{ color: "#595E67" }}

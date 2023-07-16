@@ -5,7 +5,7 @@ import { BsCheck2 } from "react-icons/bs";
 const Body = () => {
   return (
     <>
-      <div className="md:max-w-6xl xl:max-w-7xl px-[40px] w-full mx-auto grid grid-cols-[319px,1fr] gap-x-[35px]">
+      <div className="md:max-w-6xl xl:max-w-7xl px-[20px] md:px-[40px] w-full mx-auto flex flex-col-reverse md:grid md:grid-cols-[319px,1fr] md:gap-x-[35px]">
         <div className="">
           <div className="flex flex-col gap-y-[30px]">
             <div className="px-[27px] py-[30px] card">
@@ -35,7 +35,7 @@ const Body = () => {
                 >
                   <div
                     className="h-2 rounded-[10px]"
-                    style={{ width: "45%", backgroundColor: "#0C9C00" }}
+                    style={{ width: "35%", backgroundColor: "#0C9C00" }}
                   />
                 </div>
                 <span
@@ -415,16 +415,17 @@ const Body = () => {
             </div>
           </div>
         </div>
+
         <div className="col-span-1">
           <div className="flex flex-col gap-y-6">
             <div className="flex flex-col gap-y-3">
               <h1
-                className="font-poppins font-medium leading-9 tracking-[0.25px] text-2xl"
+                className="font-poppins font-medium leading-7 md:leading-9 tracking-[0.25px] text-[22px] md:text-2xl"
                 style={{ color: "#0F131A" }}
               >
                 Hey Alen, Welcome to your 7-Day Fast Start
               </h1>
-              <div className="relative h-[399px] w-full">
+              <div className="relative h-[250px] md:h-[399px] w-full">
                 <iframe
                   className="object w-full h-full rounded-[5.6px]"
                   src="https://www.youtube.com/embed/WyltKn3pi9U"
@@ -435,10 +436,10 @@ const Body = () => {
             </div>
             <div className="flex flex-col gap-y-4">
               <div className="flex flex-col gap-y-2">
-                <div className="flex">
-                  <div className="flex flex-col gap-y-6">
+                <div className="flex flex-col md:flex-row gap-y-2 md:gap-y-0">
+                  <div className="flex flex-col gap-y-4 md:gap-y-6">
                     <div
-                      className="font-poppins font-bold truncate xl:leading-[26px] xl:text-[18px] w-[500px] xl:w-full"
+                      className="font-poppins font-bold break-words xl:leading-[26px] xl:text-[18px] md:w-[500px] xl:w-full"
                       style={{ color: "#2478CC" }}
                     >
                       PUBG Mobile x Godzilla vs. Kong Trailer - Official Trailer
@@ -452,7 +453,6 @@ const Body = () => {
                       <div>May 11, 2021</div>
                     </div>
                   </div>
-
                   <div className="flex-1"></div>
                   <div className="flex flex-col justify-start items-center gap-y-2">
                     <button
@@ -483,7 +483,7 @@ const Body = () => {
                   <div className="flex flex-col">
                     <div className="flex gap-x-[6px] items-center">
                       <p
-                        className="text-[14px] leading-[16px] tracking-[0.25px] font-normal"
+                        className="text-[12px] md:text-[14px] leading-[16px] tracking-[0.25px] font-normal"
                         style={{ color: "#030303" }}
                       >
                         Alen Sultanic
@@ -505,7 +505,7 @@ const Body = () => {
                     </div>
                     <div>
                       <p
-                        className="text-xs leading-[18px] tracking-[0.3px] font-normal"
+                        className="text-[10px] md:text-xs leading-[18px] tracking-[0.3px] font-normal"
                         style={{ color: "#606060" }}
                       >
                         Nothing Held Back Coach
@@ -513,25 +513,30 @@ const Body = () => {
                     </div>
                   </div>
                   <div className="flex-1"></div>
-                  <div className="flex text-xs gap-x-3">
+                  <div className="flex flex-col md:flex-row text-xs md:gap-x-3">
                     <span className="flex gap-x-1">
                       <p
-                        className="text-xs tracking-[0.25px] font-normal"
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-bold"
                         style={{ color: "#030303" }}
                       >
                         CALL TYPE:
-                      </p>{" "}
-                      <p className="">EXPERT TRAINING</p>
+                      </p>
+                      <p
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-normal"
+                        style={{ color: "#030303" }}
+                      >
+                        EXPERT TRAINING
+                      </p>
                     </span>
                     <span className="flex gap-x-1">
                       <p
-                        className="text-xs tracking-[0.25px] font-bold"
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-bold"
                         style={{ color: "#030303" }}
                       >
                         DATE OF CALL:
-                      </p>{" "}
+                      </p>
                       <p
-                        className="text-xs tracking-[0.25px] font-normal"
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-normal"
                         style={{ color: "#030303" }}
                       >
                         MAY 12TH, 2021
@@ -539,13 +544,13 @@ const Body = () => {
                     </span>
                     <span className="flex gap-x-1">
                       <p
-                        className="text-xs tracking-[0.25px] font-bold"
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-bold"
                         style={{ color: "#030303" }}
                       >
                         TIME OF CALL:
                       </p>{" "}
                       <p
-                        className="text-xs tracking-[0.25px] font-normal"
+                        className="text-[9px] md:text-xs tracking-[0.25px] font-normal"
                         style={{ color: "#030303" }}
                       >
                         11:00 A.M. EST
@@ -557,7 +562,7 @@ const Body = () => {
               <div className="flex flex-col gap-y-2">
                 <div>
                   <p
-                    className="text-[14px] leading-[24px] tracking-[0.2px] font-normal"
+                    className="text-[12px] leading-[20px]  md:text-[14px] md:leading-[24px] tracking-[0.2px] font-normal"
                     style={{ color: "#393939" }}
                   >
                     Godzilla, Kong, and Mechagodzilla arrive in PUBG Mobile's
@@ -581,16 +586,16 @@ const Body = () => {
                 </a>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center gap-x-2 md:gap-x-0">
               <button
-                className="px-10 py-[13px] rounded-4 text-white font-bold text-[14px] leading-[100%] tracking-[0.144px]"
+                className="px-4 py-[8px] md:px-10 md:py-[13px] rounded-4 text-white font-bold text-[11px] md:text-[14px] leading-4 md:leading-[100%] tracking-[0.144px]"
                 style={{ backgroundColor: "#1285FF" }}
               >
                 SIGN UP FOR THE NEXT CALL
               </button>
               <div className="flex-1"></div>
-              <button className="flex gap-x-3">
-                <p className="text-[16px] leading-[20px] tracking-[0.067px] font-normal">
+              <button className="flex items-center gap-x-2 md:gap-x-3">
+                <p className="text-[12px] leading-4 md:text-[16px] md:leading-5 tracking-[0.067px] font-normal">
                   Go to Next Lesson
                 </p>
                 <svg
@@ -936,7 +941,7 @@ const Body = () => {
                       />
                     </svg>
                     <p
-                      className="underline font-inter font-black text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
+                      className="underline font-inter font-black text-[10px] md:text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
                       style={{ color: "#0F131A" }}
                     >
                       VSL Draft Template Excercise.pdf
@@ -1034,7 +1039,7 @@ const Body = () => {
                       />
                     </svg>
                     <p
-                      className="underline font-inter font-black text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
+                      className="underline font-inter font-black text-[10px] md:text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
                       style={{ color: "#0F131A" }}
                     >
                       2,498 Niches Spreadsheet.xls
@@ -1132,7 +1137,7 @@ const Body = () => {
                       />
                     </svg>
                     <p
-                      className="underline font-inter font-black text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
+                      className="underline font-inter font-black text-[10px] md:text-[12px] xl:text-[16px] xl:leading-[21.431px] tracking-[0.191px]"
                       style={{ color: "#0F131A" }}
                     >
                       1 Million Graphics Template.zip
@@ -1171,7 +1176,7 @@ const Body = () => {
               <h2 className="font-poppins text-2xl leading-[39.165px] font-normal tracking-[0.917px]">
                 Apply To join
               </h2>
-              <h1 className="pb-6 font-poppins text-[32px] leading-[39.165px] tracking-[0.917px] font-bold">
+              <h1 className="pb-6 font-poppins text-[32px] leading-[39.165px] tracking-[0.917px] font-bold text-center">
                 The NHB Mastermind
               </h1>
               <p
@@ -1185,7 +1190,7 @@ const Body = () => {
                 nec.
               </p>
               <button
-                className="text-white py-[14px] px-14 text-[14px] leading-[100%] font-bold tracking-[0.144px] rounded-4"
+                className="mt-4 md:mt-0 text-white py-[14px] px-14 text-[14px] leading-[18px] md:leading-[100%] font-bold tracking-[0.144px] rounded-4 "
                 style={{ backgroundColor: "var(--green-nhb, #49A55D)" }}
               >
                 Click Here To Apply

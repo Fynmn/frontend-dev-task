@@ -5,7 +5,7 @@ import Nav from "./header/Nav";
 
 const Header = () => {
   return (
-    <div className="pb-4">
+    <div className="md:pb-4">
       <TopBarCTA
         btnText="REGISTER NOW"
         message="Happy birthday, App Framework! How to build integrations with Contentful"

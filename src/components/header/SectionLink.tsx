@@ -4,12 +4,6 @@ export interface ISectionProps {
   dropdown: boolean;
   direction: "up" | "down" | null;
 }
-// color: #000;
-// font-family: Roboto;
-// font-size: 17px;
-// font-style: normal;
-// font-weight: 400;
-// line-height: 19.55px; /* 115% */
 
 const SectionLink: React.FC<ISectionProps> = ({
   name,

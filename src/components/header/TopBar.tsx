@@ -10,12 +10,18 @@ interface ITopBarProps {
 
 const TopBar: React.FC<ITopBarProps> = ({ firstName, profileImage }) => {
   return (
-    <div className="max-w-7xl mx-auto w-full flex px-[40px] pb-[24px] pt-3">
+    <div className="max-w-7xl mx-auto w-full px-[40px] pb-[4px] pt-3 hidden md:flex">
       <div className="flex gap-x-[30px] w-full">
-        <span className="flex items-center px-[5px] pr-[16px]">
-          <h6 className="font-poppins text-base xl:text-[18px] font-bold leading-[30.7px] pr-[2px] tracking-[3px]">
-            NOTHING HELD BACK
-          </h6>
+        <span className="relative flex items-center px-[5px] pr-[16px]">
+          <div>
+            <h6 className="font-poppins text-base xl:text-[18px] font-bold leading-[30.7px] pr-[2px] tracking-[3px]">
+              NOTHING HELD BACK
+            </h6>
+            <div
+              className="h-[2px] w-[116px] absolute bottom-[3px]"
+              style={{ backgroundColor: "#ffc700" }}
+            ></div>
+          </div>
           <p
             style={{ color: "#F4AF32" }}
             className="font-bold text-[18px] font-poppins leading-[120%] tracking-[3px]"
