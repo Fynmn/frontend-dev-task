@@ -438,7 +438,7 @@ const Body = () => {
                 <div className="flex">
                   <div className="flex flex-col gap-y-6">
                     <div
-                      className="font-poppins font-bold text-sm xl:leading-[26px] xl:text-[18px]"
+                      className="font-poppins font-bold truncate xl:leading-[26px] xl:text-[18px] w-[500px] xl:w-full"
                       style={{ color: "#2478CC" }}
                     >
                       PUBG Mobile x Godzilla vs. Kong Trailer - Official Trailer
