@@ -667,7 +667,7 @@ const Body = () => {
                   </span>
                 </div>
                 <div className="flex w-full gap-x-[17px] items-center">
-                  <span className="relative w-10 h-10 rounded-4 bg-red-200">
+                  <span className="relative min-w-[40px] w-10 h-10 rounded-4 bg-red-200">
                     <img
                       className="absolute object-contain w-full h-full rounded-4"
                       src="/img/User_1.png"
@@ -688,7 +688,7 @@ const Body = () => {
               </div>
               <div className="flex flex-col gap-y-7">
                 <div className="flex w-full items-start gap-x-[17px]">
-                  <span className="relative w-10 h-10 rounded-4 bg-red-200">
+                  <span className="relative min-w-[40px] w-10 h-10 rounded-4 bg-red-200">
                     <img
                       className="absolute object-contain w-full h-full rounded-4"
                       src="/img/User_2.png"
@@ -753,7 +753,7 @@ const Body = () => {
                   </div>
                 </div>
                 <div className="flex w-full items-start gap-x-[17px]">
-                  <span className="relative w-10 h-10 rounded-4 bg-red-200">
+                  <span className="relative min-w-[40px] w-10 h-10 rounded-4 bg-red-200">
                     <img
                       className="absolute object-contain w-full h-full rounded-4"
                       src="/img/User_3.png"
@@ -824,7 +824,7 @@ const Body = () => {
                   </div>
                 </div>
                 <div className="flex w-full items-start gap-x-[17px]">
-                  <span className="relative w-10 h-10 rounded-4 bg-red-200">
+                  <span className="relative min-w-[40px] w-10 h-10 rounded-4 bg-red-200">
                     <img
                       className="absolute object-contain w-full h-full rounded-4"
                       src="/img/User_4.png"
